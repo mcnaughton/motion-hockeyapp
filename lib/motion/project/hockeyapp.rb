@@ -72,9 +72,9 @@ Motion::Project::App.setup do |app|
 
   app.pods do
     if app.deploy_platform == 'MacOSX'
-      pod 'HockeySDK-Mac', '~> 2.1'
+      pod 'HockeySDK-Mac', '~> 4.1.3'
     else
-      pod "HockeySDK", "~> 3.6.2"
+      pod "HockeySDK", "~> 4.1.4"
     end
   end
 
